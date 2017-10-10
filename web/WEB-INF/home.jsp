@@ -8,7 +8,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <c:import url="/WEB-INF/header.html" />
 
-        <h1>Home</h1>
+        <h1>Home Page</h1>
         
         <p>Hello ${activeUser}!</p><br>
         <p><a href="Login?action=logout">Logout</a></P>
